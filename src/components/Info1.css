@@ -1,0 +1,24 @@
+.info1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 1rem ;
+}
+.project1{
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    grid-gap: 40px;
+}
+.info1 .project1 .img1{
+  size: 1rem;
+    
+}
