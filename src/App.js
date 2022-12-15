@@ -3,7 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div><h1>my app</h1>My name</div>
+    <div className="App">
+        <h1>
+          My first change
+        </h1>
+    </div>
   );
 }
 
