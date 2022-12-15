@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar'
+import TypeWriter from '../components/TypeWriter'
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Navbar/>
+      <TypeWriter/>
+    </div>
   )
 }
 

@@ -1,0 +1,24 @@
+.typewriter{
+    color: #fff;
+    font-weight: 100;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute;
+    transform: translate(-50%,-10%);
+    top:10%;
+    left: 14%;
+    text-align: center;
+}
+@media screen and (max-width:1040px) {
+    .typewriter{
+        position: absolute;
+    transform: translate(-10%,-50%);
+    top:20%;
+    left: 30%;
+    margin-left: 15%;
+    margin-right: 40%;
+    text-align: center;
+}
+}
