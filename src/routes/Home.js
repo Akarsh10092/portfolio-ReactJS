@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
-      <TypeWriter/>
       <HeroImage/>
+      <TypeWriter/>
       <Footer/>
     </div>
   )
