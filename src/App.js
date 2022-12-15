@@ -1,11 +1,7 @@
 function App() {
   return (
-    <div>
-        <h1>
-          My first change
-        </h1>
-    </div>
-  );
+    <><h1>Header here</h1></>
+  )
 }
 
 export default App;
