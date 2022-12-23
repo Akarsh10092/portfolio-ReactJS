@@ -11,7 +11,7 @@
     left: 14%;
     text-align: center;
 }
-@media screen and (max-width:1040px) {
+@media screen and (max-width:640px) {
     .typewriter{
         position: absolute;
     transform: translate(-10%,-50%);
@@ -20,5 +20,6 @@
     margin-left: 15%;
     margin-right: 40%;
     text-align: center;
+    flex-direction: column;
 }
 }

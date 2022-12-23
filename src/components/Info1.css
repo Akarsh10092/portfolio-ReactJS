@@ -22,3 +22,10 @@
   size: 1rem;
     
 }
+@media screen and (max-width:740px){
+  .project1{
+          max-width: 100%;
+          margin: auto;
+          grid-template-columns: 1fr;
+      }
+  }
