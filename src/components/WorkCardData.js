@@ -6,7 +6,7 @@ const ProjectCardData=[
     {
         imgsrc: pro1,
         title : "Ecommerce MERN App",
-        text:"A normal ecommerce app",
+        text:"A comprehensive ecommerce app for food ordering",
         view:"/information",
         source:"https://github.com/Akarsh10092/expense-tracker"
     },

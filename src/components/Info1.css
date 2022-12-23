@@ -3,7 +3,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: left;
+    /* justify-content: left; */
     flex-wrap: wrap;
     height: 100%;
     padding: 1rem ;
@@ -18,14 +18,15 @@
     padding: 1rem;
     grid-gap: 40px;
 }
-.info1 .project1 .img1{
+.img{
   size: 1rem;
-    
+  max-width: 100%;
 }
-@media screen and (max-width:740px){
+@media screen and (max-width:640px){
   .project1{
-          max-width: 100%;
-          margin: auto;
-          grid-template-columns: 1fr;
-      }
+    max-width: 100%;
+    margin: 1rem 1rem 1rem 1rem;
+    grid-template-columns: 1fr;
+    align-items: center;
   }
+}
