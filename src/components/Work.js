@@ -2,12 +2,25 @@ import "./WorkCardData.css"
 import React from 'react'
 import WorkCard from "./WorkCard"
 import WorkCardData from "./WorkCardData"
+import { motion } from "framer-motion"
 
 const Work = () => {
   return (
     <div className="container">
     <h1 className="project-heading">Projects</h1>
-    <div className="project-container">
+    <motion.div 
+        initial={{
+          x:"-100%",
+          opacity:0
+         }}
+         whileInView={{
+          x:0,
+          opacity:1
+         }}
+         transition={{
+          delay:1,
+         }}
+        className="project-container">
         {WorkCardData.map((val,indx)=>{
             return(
                 <WorkCard
@@ -19,7 +32,7 @@ const Work = () => {
                 source={val.source}/>
             )
         })} 
-    </div>
+    </motion.div>
 </div>
   )
 }

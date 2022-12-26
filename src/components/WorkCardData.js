@@ -6,21 +6,21 @@ const ProjectCardData=[
     {
         imgsrc: pro1,
         title : "Ecommerce MERN App",
-        text:"A comprehensive ecommerce app for food ordering",
+        text:"Comprehensive ecommerce app for food ordering",
         view:"/information",
         source:"https://github.com/Akarsh10092/expense-tracker"
     },
     {
         imgsrc: pro2,
         title : "Goal Setter MERN App",
-        text:"A normal GoalSetter app",
+        text:"Comprehensive ecommerce app for food ordering",
         view:"/information",
         source:"https://github.com/Akarsh10092/mern-Goal-Setter"
     },
     {
         imgsrc: pro3,
         title : "LIGHTSOUT",
-        text:"Vanilla JS",
+        text:"Comprehensive ecommerce app for food ordering",
         view:"/information",
         source:"https://github.com/Akarsh10092/lightsout-reactBasic-game"
     }

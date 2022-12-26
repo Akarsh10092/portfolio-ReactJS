@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import {FaBars,FaTimes} from "react-icons/fa"
 import { useState } from "react"
 import React from 'react'
-
+import { motion } from "framer-motion"
 const Navbar = () => {
     const [click,setClick] = useState(false);
     const handleClick = ()=>{
@@ -17,8 +17,16 @@ const Navbar = () => {
             else{setColor(false)}
     }
     window.addEventListener("scroll",changeColor)
+    const options = {
+        initial: {
+          x:"100%"
+        },
+        whileInView:{
+            x:0
+        },
+    }
   return (
-    <div className={color ? "header header-bg":"header"}>
+    <motion.div {...options} className={color ? "header header-bg":"header"}>
         <Link to="/">
             <h1>Aakarsh Agarwal</h1>
         </Link>
@@ -40,7 +48,7 @@ const Navbar = () => {
             {!click? (<FaBars size={20} style={{color:"#fff"}}/>):
             (<FaTimes size={20} style={{color:"#fff"}}/>)}
              </div>
-    </div>
+    </motion.div>
   )
 }
 
