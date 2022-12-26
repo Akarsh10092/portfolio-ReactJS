@@ -8,12 +8,12 @@
     position: absolute;
     transform: translate(-50%,-10%);
     top:10%;
-    left: 17%;
+    left: 15%;
     text-align: center;
 }
 @media screen and (max-width:640px) {
     .typewriter{
-        /* display:none; */
+        display:none;
         position: absolute;
     transform: translate(-10%,-50%);
     top:20%;
