@@ -33,7 +33,7 @@ return (
 
         <div className='right'>
                 <h4>About me</h4>
-                <p>I am a passionate frontend developer who likes new challenges</p>
+                <p>I am a passionate fullstack developer who likes new challenges</p>
             <div className='social'>
                 <a href={item.giturl} target="_blank" rel="noopener noreferrer"><FaGithub size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
                 <a href={item.insturl} target="_blank" rel="noopener noreferrer">   <FaInstagram size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>

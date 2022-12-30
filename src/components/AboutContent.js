@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import js1 from "../images/js1.png"
 import mern from "../images/mern.jpeg"
-import resume from "../images/Resume-Akarsh-final.pdf"
+import resume from "../images/Resume-Akarsh-final1.pdf"
 const AboutContent = () => {
     return (
       <div className="about">

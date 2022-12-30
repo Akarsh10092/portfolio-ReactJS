@@ -26,7 +26,7 @@ const HeroImage = () => {
         </div>
         <div className='content'>
         <motion.p {...options}>Hi I am a freelance </motion.p>
-            <h1>React Developer.</h1>
+            <h1>MERN Stack Developer.</h1>
             <motion.div initial={{x:"-100%"}} whileInView={{x:0}} >
                 <Link to="/project" className='btn'>Projects</Link>
                 <Link to="/contact" className='btn btn-light'>Contact</Link>
