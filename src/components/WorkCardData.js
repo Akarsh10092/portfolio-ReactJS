@@ -28,7 +28,7 @@ const ProjectCardData=[
     {
         imgsrc: pro4,
         title : "LIGHTSOUT",
-        text:"Comprehensive ecommerce app for food ordering",
+        text:"Simple React game made using custom logics and JavaScript magic",
         view:"/information",
         source:"https://github.com/Akarsh10092/lightsout-reactBasic-game"
     }
