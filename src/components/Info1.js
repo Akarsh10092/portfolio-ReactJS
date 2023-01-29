@@ -6,7 +6,7 @@ import pro2 from "../images/pro2.png"
 import lights from "../images/pro4.png"
 const Info1 = () => {
   const item = { lightsout: "https://lightsout-psi.vercel.app/",
-    btachBurgerWala : "https://mbaburgerwala-eight.vercel.app/"
+    btachBurgerWala : "https://btechburgerwala-eight.vercel.app/"
 }
   return (
     <div className='info1'>
