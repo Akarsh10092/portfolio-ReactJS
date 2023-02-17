@@ -3,6 +3,7 @@ import pro1 from "../images/pro1.jpg"
 import pro2 from "../images/pro2.png"
 import pro4 from "../images/pro4.png"
 import btech1 from "../images/btech1.png"
+import admin from "../images/admin.png"
 const ProjectCardData=[
     {
         imgsrc: btech1,
@@ -10,6 +11,19 @@ const ProjectCardData=[
         text:"Comprehensive ecommerce app for food ordering using MERN stack",
         view:"/information",
         source:"https://github.com/Akarsh10092/btechBurgerwala-frontend"
+    },
+        {
+
+        imgsrc: admin,
+
+        title : "Admin DashBoard",
+
+        text:"Admin Dashboard for everyday access",
+
+        view:"/information",
+
+        source:"https://github.com/Akarsh10092/admindashboard"
+
     },
     {
         imgsrc: pro1,
