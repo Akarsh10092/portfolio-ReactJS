@@ -2,11 +2,13 @@ import React from 'react'
 import "./Info1.css"
 import pro1 from "../images/pro1.jpg"
 import btech1 from "../images/btech1.png"
+import admin from "../images/admin.png"
 import pro2 from "../images/pro2.png"
 import lights from "../images/pro4.png"
 const Info1 = () => {
   const item = { lightsout: "https://lightsout-psi.vercel.app/",
-    btachBurgerWala : "https://btechburgerwala-eight.vercel.app/"
+    btachBurgerWala : "https://btechburgerwala-eight.vercel.app/",
+    adminDashBoard : "https://admindashboard-flax.vercel.app/"
 }
   return (
     <div className='info1'>
@@ -15,6 +17,15 @@ const Info1 = () => {
     <a href={item.btachBurgerWala} target="_blank" rel="noopener noreferrer"><h1><btn className="btn">Btech Burger Wala</btn></h1></a>
         <p>The webapp is made for food ordering usng Google Auth and Razorpay
         <p>Skills used: MongoDB/Express/React/Nodejs<br></br>/GoogleAuthO2/Razorpay/cookieSession</p></p>
+          
+           <img classname="img" src={admin} alt="true"></img>
+ <a href={item.adminDashBoard} target="_blank" rel="noopener noreferrer"><h1><btn className="btn">Admin DashBoard</btn></h1></a>
+
+        <p>Classic Admin DashBoard for regular accessibility
+
+        <p>Skills used: React/Nodejs</p></p>
+
+   
     <img classname="img" src={pro1} alt="true"></img>
        <h1><btn className="btn">EcomApp</btn> </h1>
         <p>The webapp is made for setting daily goals efficiently
