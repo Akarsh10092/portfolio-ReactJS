@@ -4,6 +4,7 @@ import pro2 from "../images/pro2.png"
 import pro4 from "../images/pro4.png"
 import btech1 from "../images/btech1.png"
 import admin from "../images/admin.png"
+import ecom from "../images/ecom.png"
 const ProjectCardData=[
     {
         imgsrc: btech1,
@@ -24,6 +25,12 @@ const ProjectCardData=[
 
         source:"https://github.com/Akarsh10092/admindashboard"
 
+    },
+     { imgsrc: ecom,
+        title : "Ecom Website",
+        text:"ECom Website for clothes and fashion needs",
+        view:"/information",
+        source:"https://github.com/Akarsh10092/ecom-app"
     },
     {
         imgsrc: pro1,
