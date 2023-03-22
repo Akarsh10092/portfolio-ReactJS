@@ -19,7 +19,7 @@ const ProjectCardData=[
 
         title : "Admin DashBoard",
 
-        text:"Admin Dashboard for everyday access",
+        text:"Admin Dashboard for everyday access of daily eventfull data",
 
         view:"/information",
 
@@ -28,7 +28,7 @@ const ProjectCardData=[
     },
      { imgsrc: ecom,
         title : "Ecom Website",
-        text:"ECom Website for clothes and fashion needs",
+        text:"ECom Website for all your fashion needs in one place",
         view:"/information",
         source:"https://github.com/Akarsh10092/ecom-app"
     },
